@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+.env.*
+.idea/
+.vscode/
+# Downloaded KITTI datasets, large intermediate DB, and generated files
+dataset/
+datasets/
+*.pkl
+*.pickle
+*.npz
+*.npy
+*.log
+outputs/
+results/
+# OS
+.DS_Store
+Thumbs.db
